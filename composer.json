@@ -1,0 +1,50 @@
+{
+    "name" : "acato/openwoo-app-content-editor",
+    "type" : "wordpress-plugin",
+    "description": "A content editor in WordPress for the OpenWoo.App.",
+    "authors": [
+        {
+            "name": "Richard Korthuis",
+            "email": "richardkorthuis@acato.nl",
+            "homepage": "https://acato.nl",
+            "role": "Backend WordPress Developer"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "git",
+            "url": "git@bitbucket.org:acato/wp-pre-commit-hook.git"
+        },
+        {
+            "type": "git",
+            "url": "git@github.com:acato-plugins/cmb2-flexible-content.git"
+        },
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
+        }
+    ],
+    "require" : {
+        "composer/installers" : "~1.0",
+        "wpackagist-plugin/cmb2": "*",
+        "acato-plugins/cmb2-flexible-content": "dev-master"
+    },
+    "require-dev" : {
+        "acato/wp-pre-commit-hook": "*",
+        "phpcompatibility/phpcompatibility-wp": "*",
+        "phpstan/extension-installer": "^1.1",
+        "szepeviktor/phpstan-wordpress": "^2.0"
+    },
+    "config" : {
+        "allow-plugins" : {
+            "composer/installers": true,
+            "dealerdirect/phpcodesniffer-composer-installer": true,
+            "acato/wp-pre-commit-hook": true,
+            "phpstan/extension-installer": true
+        }
+    }
+}

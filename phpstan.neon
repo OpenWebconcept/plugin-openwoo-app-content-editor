@@ -1,0 +1,7 @@
+parameters:
+	level: 6
+	paths:
+		- openwoo-app-content-editor.php
+		- src
+	bootstrapFiles:
+		- stubs/cmb2-stubs.php

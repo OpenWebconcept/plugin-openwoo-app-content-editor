@@ -1,0 +1,311 @@
+# Copyright (C) 2025 Acato
+# This file is distributed under the EUPL-1.2.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenWoo.App Content Editor 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/openwoo-app-"
+"content-editor\n"
+"POT-Creation-Date: 2025-03-31T10:21:58+00:00\n"
+"PO-Revision-Date: 2025-03-31 12:30+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Domain: openwoo-app-content-editor\n"
+
+#. Plugin Name of the plugin
+#: openwoo-app-content-editor.php
+msgid "OpenWoo.App Content Editor"
+msgstr "OpenWoo.App Content Editor"
+
+#. Plugin URI of the plugin
+#: openwoo-app-content-editor.php
+msgid "https://www.openwebconcept.nl"
+msgstr "https://www.openwebconcept.nl"
+
+#. Description of the plugin
+#: openwoo-app-content-editor.php
+msgid "A content editor in WordPress for the OpenWoo.App."
+msgstr "Een content editor in WordPress voor de OpenWoo.App."
+
+#. Author of the plugin
+#: openwoo-app-content-editor.php
+msgid "Acato"
+msgstr "Acato"
+
+#. Author URI of the plugin
+#: openwoo-app-content-editor.php
+msgid "https://www.acato.nl"
+msgstr "https://www.acato.nl"
+
+#: src/admin/class-admin.php:73
+msgid ""
+"The plugin OpenWoo.App Content Editor requires CMB2 plugin and CMB2 Field "
+"Type: Flexible Content plugin to be installed and activated. The plugin has "
+"been deactivated."
+msgstr ""
+"De plugin OpenWoo.App Content Editor vereist dat de plugin CMB2 en de "
+"plugin CMB2 Field Type: Flexible Content zijn geïnstalleerd en geactiveerd. "
+"De plugin is gedeactiveerd."
+
+#: src/admin/class-faq.php:54
+msgctxt "post type general name"
+msgid "FAQs"
+msgstr "Veelgestelde vragen"
+
+#: src/admin/class-faq.php:55
+msgctxt "post type singular name"
+msgid "FAQ"
+msgstr "Veelgestelde vraag"
+
+#: src/admin/class-faq.php:56
+msgctxt "admin menu"
+msgid "OpenWoo - FAQs"
+msgstr "OpenWoo - Veelgestelde vragen"
+
+#: src/admin/class-faq.php:57
+msgctxt "add new on admin bar"
+msgid "OpenWoo - FAQ"
+msgstr "OpenWoo - Veelgestelde vraag"
+
+#: src/admin/class-faq.php:58 src/admin/class-pages.php:58
+msgctxt "faq"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: src/admin/class-faq.php:59
+msgid "Add New FAQ"
+msgstr "Nieuwe Veelgestelde vraag toevoegen"
+
+#: src/admin/class-faq.php:60
+msgid "New FAQ"
+msgstr "Nieuwe Veelgestelde vraag"
+
+#: src/admin/class-faq.php:61
+msgid "Edit FAQ"
+msgstr "Bewerk Veelgestelde vraag"
+
+#: src/admin/class-faq.php:62
+msgid "View FAQ"
+msgstr "Veelgestelde vraag bekijken"
+
+#: src/admin/class-faq.php:63
+msgid "All FAQs"
+msgstr "Alle Veelgestelde vragen"
+
+#: src/admin/class-faq.php:64
+msgid "Search FAQs"
+msgstr "Zoek Veelgestelde vragen"
+
+#: src/admin/class-faq.php:65
+msgid "Parent FAQ:"
+msgstr "Bovenliggende Veelgestelde vraag:"
+
+#: src/admin/class-faq.php:66
+msgid "No FAQs found."
+msgstr "Geen Veelgestelde vragen gevonden."
+
+#: src/admin/class-faq.php:67
+msgid "No FAQs found in Trash."
+msgstr "Geen Veelgestelde vragen gevonden in prullenbak."
+
+#: src/admin/class-faq.php:72
+msgid "FAQ."
+msgstr "Veelgestelde vraag."
+
+#: src/admin/class-faq.php:106 src/admin/class-pages.php:131
+msgid "FAQ"
+msgstr "Veelgestelde vraag"
+
+#: src/admin/class-faq.php:115
+msgid "Answer"
+msgstr "Antwoord"
+
+#: src/admin/class-faq.php:123
+msgid "Sort Order"
+msgstr "Sorteervolgorde"
+
+#: src/admin/class-lists.php:54
+msgctxt "post type general name"
+msgid "Lists"
+msgstr "Lijsten"
+
+#: src/admin/class-lists.php:55
+msgctxt "post type singular name"
+msgid "List"
+msgstr "Lijst"
+
+#: src/admin/class-lists.php:56
+msgctxt "admin menu"
+msgid "OpenWoo - Lists"
+msgstr "OpenWoo - Lijsten"
+
+#: src/admin/class-lists.php:57
+msgctxt "add new on admin bar"
+msgid "OpenWoo - List"
+msgstr "OpenWoo - Lijst"
+
+#: src/admin/class-lists.php:58
+msgctxt "lists"
+msgid "Add New"
+msgstr "Nieuwe toevoegen"
+
+#: src/admin/class-lists.php:59
+msgid "Add New List"
+msgstr "Nieuwe Lijst toevoegen"
+
+#: src/admin/class-lists.php:60
+msgid "New List"
+msgstr "Nieuwe Lijst"
+
+#: src/admin/class-lists.php:61
+msgid "Edit List"
+msgstr "Bewerk Lijst"
+
+#: src/admin/class-lists.php:62
+msgid "View List"
+msgstr "Lijst bekijken"
+
+#: src/admin/class-lists.php:63
+msgid "All Lists"
+msgstr "Alle Lijsten"
+
+#: src/admin/class-lists.php:64
+msgid "Search Lists"
+msgstr "Zoek Lijsten"
+
+#: src/admin/class-lists.php:65
+msgid "Parent List:"
+msgstr "Bovenliggende Lijst:"
+
+#: src/admin/class-lists.php:66
+msgid "No Lists found."
+msgstr "Geen Lijsten gevonden."
+
+#: src/admin/class-lists.php:67
+msgid "No Lists found in Trash."
+msgstr "Geen Lijsten gevonden in prullenbak."
+
+#: src/admin/class-lists.php:72
+msgid "Lists."
+msgstr "Lijsten."
+
+#: src/admin/class-lists.php:106
+msgid "Lists"
+msgstr "Lijsten"
+
+#: src/admin/class-lists.php:115
+msgid "Add a new list item"
+msgstr "Voeg een nieuw Lijst item toe"
+
+#: src/admin/class-lists.php:117
+msgid "List Item {#}"
+msgstr "Lijst Item (#)"
+
+#: src/admin/class-lists.php:118
+msgid "Add Another List Item"
+msgstr "Voeg nog een Lijst item toe"
+
+#: src/admin/class-lists.php:119
+msgid "Remove List Item"
+msgstr "Verwijder Lijst Item"
+
+#: src/admin/class-lists.php:128
+msgid "URL"
+msgstr "URL"
+
+#: src/admin/class-lists.php:137 src/admin/class-pages.php:135
+#: src/admin/class-pages.php:139
+msgid "Text"
+msgstr "Tekst"
+
+#: src/admin/class-lists.php:146
+msgid "Label"
+msgstr "Label"
+
+#: src/admin/class-menus.php:54
+msgid "OpenWoo - This website"
+msgstr "OpenWoo - Deze website"
+
+#: src/admin/class-menus.php:55
+msgid "OpenWoo - Quick links"
+msgstr "OpenWoo - Snel naar"
+
+#: src/admin/class-pages.php:54
+msgctxt "post type general name"
+msgid "Pages"
+msgstr "Pagina's"
+
+#: src/admin/class-pages.php:55
+msgctxt "post type singular name"
+msgid "Page"
+msgstr "Pagina"
+
+#: src/admin/class-pages.php:56
+msgctxt "admin menu"
+msgid "OpenWoo - Pages"
+msgstr "OpenWoo - Pagina's"
+
+#: src/admin/class-pages.php:57
+msgctxt "add new on admin bar"
+msgid "OpenWoo - Page"
+msgstr "OpenWoo - Pagina"
+
+#: src/admin/class-pages.php:59
+msgid "Add New Page"
+msgstr "Nieuwe pagina toevoegen"
+
+#: src/admin/class-pages.php:60
+msgid "New Page"
+msgstr "Nieuwe Pagina"
+
+#: src/admin/class-pages.php:61
+msgid "Edit Page"
+msgstr "Pagina bewerken"
+
+#: src/admin/class-pages.php:62
+msgid "View Page"
+msgstr "Pagina bekijken"
+
+#: src/admin/class-pages.php:63
+msgid "All Pages"
+msgstr "Alle pagina’s"
+
+#: src/admin/class-pages.php:64
+msgid "Search Pages"
+msgstr "Zoek Pagina's"
+
+#: src/admin/class-pages.php:65
+msgid "Parent Page:"
+msgstr "Hoofdpagina:"
+
+#: src/admin/class-pages.php:66
+msgid "No Pages found."
+msgstr "Geen pagina's gevonden."
+
+#: src/admin/class-pages.php:67
+msgid "No Pages found in Trash."
+msgstr "Geen pagina's gevonden in Prullenbak."
+
+#: src/admin/class-pages.php:72
+msgid "Pages."
+msgstr "Pagina's."
+
+#: src/admin/class-pages.php:106
+msgid "Content Blocks"
+msgstr "Content Blokken"
+
+#: src/admin/class-pages.php:145 src/admin/class-pages.php:149
+msgid "Image"
+msgstr "Afbeelding"
+
+#: src/admin/class-pages.php:161 src/admin/class-pages.php:165
+msgid "List"
+msgstr "Lijst"
+
+#: src/admin/class-pages.php:167
+msgid "Select a list"
+msgstr "Selecteer een lijst"

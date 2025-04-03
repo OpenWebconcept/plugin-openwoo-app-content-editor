@@ -1,0 +1,308 @@
+# Copyright (C) 2025 Acato
+# This file is distributed under the EUPL-1.2.
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenWoo.App Content Editor 0.0.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/openwoo-app-content-editor\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2025-03-31T10:21:58+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.11.0\n"
+"X-Domain: openwoo-app-content-editor\n"
+
+#. Plugin Name of the plugin
+#: openwoo-app-content-editor.php
+msgid "OpenWoo.App Content Editor"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: openwoo-app-content-editor.php
+msgid "https://www.openwebconcept.nl"
+msgstr ""
+
+#. Description of the plugin
+#: openwoo-app-content-editor.php
+msgid "A content editor in WordPress for the OpenWoo.App."
+msgstr ""
+
+#. Author of the plugin
+#: openwoo-app-content-editor.php
+msgid "Acato"
+msgstr ""
+
+#. Author URI of the plugin
+#: openwoo-app-content-editor.php
+msgid "https://www.acato.nl"
+msgstr ""
+
+#: src/admin/class-admin.php:73
+msgid "The plugin OpenWoo.App Content Editor requires CMB2 plugin and CMB2 Field Type: Flexible Content plugin to be installed and activated. The plugin has been deactivated."
+msgstr ""
+
+#: src/admin/class-faq.php:54
+msgctxt "post type general name"
+msgid "FAQs"
+msgstr ""
+
+#: src/admin/class-faq.php:55
+msgctxt "post type singular name"
+msgid "FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:56
+msgctxt "admin menu"
+msgid "OpenWoo - FAQs"
+msgstr ""
+
+#: src/admin/class-faq.php:57
+msgctxt "add new on admin bar"
+msgid "OpenWoo - FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:58
+#: src/admin/class-pages.php:58
+msgctxt "faq"
+msgid "Add New"
+msgstr ""
+
+#: src/admin/class-faq.php:59
+msgid "Add New FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:60
+msgid "New FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:61
+msgid "Edit FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:62
+msgid "View FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:63
+msgid "All FAQs"
+msgstr ""
+
+#: src/admin/class-faq.php:64
+msgid "Search FAQs"
+msgstr ""
+
+#: src/admin/class-faq.php:65
+msgid "Parent FAQ:"
+msgstr ""
+
+#: src/admin/class-faq.php:66
+msgid "No FAQs found."
+msgstr ""
+
+#: src/admin/class-faq.php:67
+msgid "No FAQs found in Trash."
+msgstr ""
+
+#: src/admin/class-faq.php:72
+msgid "FAQ."
+msgstr ""
+
+#: src/admin/class-faq.php:106
+#: src/admin/class-pages.php:131
+msgid "FAQ"
+msgstr ""
+
+#: src/admin/class-faq.php:115
+msgid "Answer"
+msgstr ""
+
+#: src/admin/class-faq.php:123
+msgid "Sort Order"
+msgstr ""
+
+#: src/admin/class-lists.php:54
+msgctxt "post type general name"
+msgid "Lists"
+msgstr ""
+
+#: src/admin/class-lists.php:55
+msgctxt "post type singular name"
+msgid "List"
+msgstr ""
+
+#: src/admin/class-lists.php:56
+msgctxt "admin menu"
+msgid "OpenWoo - Lists"
+msgstr ""
+
+#: src/admin/class-lists.php:57
+msgctxt "add new on admin bar"
+msgid "OpenWoo - List"
+msgstr ""
+
+#: src/admin/class-lists.php:58
+msgctxt "lists"
+msgid "Add New"
+msgstr ""
+
+#: src/admin/class-lists.php:59
+msgid "Add New List"
+msgstr ""
+
+#: src/admin/class-lists.php:60
+msgid "New List"
+msgstr ""
+
+#: src/admin/class-lists.php:61
+msgid "Edit List"
+msgstr ""
+
+#: src/admin/class-lists.php:62
+msgid "View List"
+msgstr ""
+
+#: src/admin/class-lists.php:63
+msgid "All Lists"
+msgstr ""
+
+#: src/admin/class-lists.php:64
+msgid "Search Lists"
+msgstr ""
+
+#: src/admin/class-lists.php:65
+msgid "Parent List:"
+msgstr ""
+
+#: src/admin/class-lists.php:66
+msgid "No Lists found."
+msgstr ""
+
+#: src/admin/class-lists.php:67
+msgid "No Lists found in Trash."
+msgstr ""
+
+#: src/admin/class-lists.php:72
+msgid "Lists."
+msgstr ""
+
+#: src/admin/class-lists.php:106
+msgid "Lists"
+msgstr ""
+
+#: src/admin/class-lists.php:115
+msgid "Add a new list item"
+msgstr ""
+
+#: src/admin/class-lists.php:117
+msgid "List Item {#}"
+msgstr ""
+
+#: src/admin/class-lists.php:118
+msgid "Add Another List Item"
+msgstr ""
+
+#: src/admin/class-lists.php:119
+msgid "Remove List Item"
+msgstr ""
+
+#: src/admin/class-lists.php:128
+msgid "URL"
+msgstr ""
+
+#: src/admin/class-lists.php:137
+#: src/admin/class-pages.php:135
+#: src/admin/class-pages.php:139
+msgid "Text"
+msgstr ""
+
+#: src/admin/class-lists.php:146
+msgid "Label"
+msgstr ""
+
+#: src/admin/class-menus.php:54
+msgid "OpenWoo - This website"
+msgstr ""
+
+#: src/admin/class-menus.php:55
+msgid "OpenWoo - Quick links"
+msgstr ""
+
+#: src/admin/class-pages.php:54
+msgctxt "post type general name"
+msgid "Pages"
+msgstr ""
+
+#: src/admin/class-pages.php:55
+msgctxt "post type singular name"
+msgid "Page"
+msgstr ""
+
+#: src/admin/class-pages.php:56
+msgctxt "admin menu"
+msgid "OpenWoo - Pages"
+msgstr ""
+
+#: src/admin/class-pages.php:57
+msgctxt "add new on admin bar"
+msgid "OpenWoo - Page"
+msgstr ""
+
+#: src/admin/class-pages.php:59
+msgid "Add New Page"
+msgstr ""
+
+#: src/admin/class-pages.php:60
+msgid "New Page"
+msgstr ""
+
+#: src/admin/class-pages.php:61
+msgid "Edit Page"
+msgstr ""
+
+#: src/admin/class-pages.php:62
+msgid "View Page"
+msgstr ""
+
+#: src/admin/class-pages.php:63
+msgid "All Pages"
+msgstr ""
+
+#: src/admin/class-pages.php:64
+msgid "Search Pages"
+msgstr ""
+
+#: src/admin/class-pages.php:65
+msgid "Parent Page:"
+msgstr ""
+
+#: src/admin/class-pages.php:66
+msgid "No Pages found."
+msgstr ""
+
+#: src/admin/class-pages.php:67
+msgid "No Pages found in Trash."
+msgstr ""
+
+#: src/admin/class-pages.php:72
+msgid "Pages."
+msgstr ""
+
+#: src/admin/class-pages.php:106
+msgid "Content Blocks"
+msgstr ""
+
+#: src/admin/class-pages.php:145
+#: src/admin/class-pages.php:149
+msgid "Image"
+msgstr ""
+
+#: src/admin/class-pages.php:161
+#: src/admin/class-pages.php:165
+msgid "List"
+msgstr ""
+
+#: src/admin/class-pages.php:167
+msgid "Select a list"
+msgstr ""
