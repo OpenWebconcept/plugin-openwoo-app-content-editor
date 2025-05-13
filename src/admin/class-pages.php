@@ -93,6 +93,8 @@ class Pages {
 	 */
 	public static function action_cmb2_init() {
 		self::add_content_blocks_metaboxes();
+		self::add_about_metaboxes();
+		self::add_data_sources_metaboxes();
 	}
 
 	/**
@@ -106,6 +108,7 @@ class Pages {
 				'id'           => 'content_blocks_metabox',
 				'title'        => __( 'Content Blocks', 'openwoo-app-content-editor' ),
 				'object_types' => [ 'owace_page' ],
+				'show_on'      => [ 'key' => 'slug', 'value' => 'home', 'compare' => '!=' ],
 			]
 		);
 
@@ -171,6 +174,127 @@ class Pages {
 						],
 					],
 				],
+			]
+		);
+	}
+
+	/**
+	 * Add the about metaboxes to the homepage.
+	 *
+	 * @return void
+	 */
+	private static function add_about_metaboxes() {
+		$cmb = new_cmb2_box(
+			[
+				'id'           => 'about_metabox',
+				'title'        => __( 'About', 'openwoo-app-content-editor' ),
+				'object_types' => [ 'owace_page' ],
+				'show_on'      => [ 'key' => 'slug', 'value' => 'home' ],
+			]
+		);
+
+		$cmb->add_field(
+			[
+				'type' => 'text',
+				'name' => __( 'Title', 'openwoo-app-content-editor' ),
+				'id'   => 'about_title',
+			]
+		);
+
+		$cmb->add_field(
+			[
+				'type' => 'wysiwyg',
+				'name' => __( 'Description', 'openwoo-app-content-editor' ),
+				'id'   => 'about_description',
+			]
+		);
+
+		$cmb->add_field(
+			[
+				'type'       => 'file',
+				'name'       => __( 'Image', 'openwoo-app-content-editor' ),
+				'id'         => 'about_image',
+				'options'    => [
+					'url' => false,
+				],
+				'query_args' => [
+					'type' => 'image',
+				],
+			]
+		);
+	}
+
+	/**
+	 * Add the data sources metaboxes to the homepage.
+	 *
+	 * @return void
+	 */
+	private static function add_data_sources_metaboxes() {
+		$cmb = new_cmb2_box(
+			[
+				'id'           => 'data_sources_metabox',
+				'title'        => __( 'Data sources', 'openwoo-app-content-editor' ),
+				'object_types' => [ 'owace_page' ],
+				'show_on'      => [ 'key' => 'slug', 'value' => 'home' ],
+			]
+		);
+
+		$group_id = $cmb->add_field(
+			[
+				'id'          => 'data_sources_group',
+				'type'        => 'group',
+				'description' => __( 'Add a new data source item', 'openwoo-app-content-editor' ),
+				'options'     => [
+					'group_title'   => __( 'Data Source Item {#}', 'openwoo-app-content-editor' ),
+					'add_button'    => __( 'Add Another Data Source', 'openwoo-app-content-editor' ),
+					'remove_button' => __( 'Remove Data Source', 'openwoo-app-content-editor' ),
+					'sortable'      => true,
+				],
+			]
+		);
+
+		$cmb->add_group_field(
+			$group_id,
+			[
+				'name' => __( 'Title', 'openwoo-app-content-editor' ),
+				'id'   => 'title',
+				'type' => 'text',
+			]
+		);
+
+		$cmb->add_group_field(
+			$group_id,
+			[
+				'name' => __( 'Icon', 'openwoo-app-content-editor' ),
+				'id'   => 'icon',
+				'type' => 'text',
+			]
+		);
+
+		$cmb->add_group_field(
+			$group_id,
+			[
+				'name' => __( 'Description', 'openwoo-app-content-editor' ),
+				'id'   => 'content',
+				'type' => 'text',
+			]
+		);
+
+		$cmb->add_group_field(
+			$group_id,
+			[
+				'name' => __( 'Link label', 'openwoo-app-content-editor' ),
+				'id'   => 'link',
+				'type' => 'text',
+			]
+		);
+
+		$cmb->add_group_field(
+			$group_id,
+			[
+				'name' => __( 'Link URL', 'openwoo-app-content-editor' ),
+				'id'   => 'url',
+				'type' => 'text_url',
 			]
 		);
 	}
