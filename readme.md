@@ -2,10 +2,6 @@
 
 A content editor in WordPress for the OpenWoo.App.
 
-Furthermore it adds two custom menu's to the WordPress admin, that are used in the OpenWoo.App footer:
-- OpenWoo - This website
-- OpenWoo - Quick links
-
 ## Requirements
 
 ### OpenWoo.App Content Editor Plugin
@@ -64,10 +60,12 @@ cd languages && wp i18n make-json openwoo-app-content-editor-nl_NL.po --no-purge
 ```
 
 ### Custom Post Types
-This plugin adds three custom post types to WordPress:
+This plugin adds four custom post types to WordPress:
 - OpenWoo - Pages
+  - N.B. A page with the slug 'home' will get specific fields for editing parts of the homepage.
 - OpenWoo - FAQ
 - OpenWoo - Lists
+- OpenWoo - Categories
 
 ### Custom Menu's
 This plugin adds two custom menu's to the WordPress admin, that are used in the OpenWoo.App footer:
@@ -82,11 +80,13 @@ This plugin adds the following REST API GET-endpoints:
 - to retrieve a specific faq by id: `/wp-json/owc/owace/v1/api/public/faqs/{id}`
 - to retrieve all menus: `/wp-json/owc/owace/v1/api/public/menu`
 - to retrieve a specific menu by slug: `/wp-json/owc/owace/v1/api/public/menu/{slug}`
+- to retrieve all categories: `/wp-json/owc/owace/v1/api/public/categories`
 
 ### Integration with plugins
 This plugin is compatible with the following open source projects:
 * [CMB2](https://wordpress.org/plugins/cmb2/)
 * [CMB2 Flexible Content](https://github.com/acato-plugins/cmb2-flexible-content)
 
-
+### OpenGemeenten icons
+This plugin uses SVG icons that are supplied by the OpenGemeenten Iconenset. More information about the icons can be found [here](https://www.opengemeenten.nl/producten/iconenset).
 
