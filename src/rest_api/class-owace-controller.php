@@ -514,6 +514,7 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 				'link'        => get_post_meta( $category->ID, 'link', true ),
 				'url'         => get_post_meta( $category->ID, 'url', true ),
 				'icon'        => get_post_meta( $category->ID, 'icon', true ),
+				'icon_url'    => Icons::get_icon_url( get_post_meta( $category->ID, 'icon', true ) ),
 				'is_external' => 'on' === get_post_meta( $category->ID, 'is_external', true ),
 				'sort'        => get_post_meta( $category->ID, 'sort', true ),
 			];
