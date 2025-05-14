@@ -301,7 +301,7 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 					'content' => wpautop( get_post_meta( $page->ID, 'about_description', true ) ),
 				],
 			];
-			$id = get_post_meta( $page->ID, 'about_image_id', true );
+			$id                         = get_post_meta( $page->ID, 'about_image_id', true );
 
 			$data['data']['contents'][] = [
 				'type' => 'Image',
@@ -317,22 +317,21 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 
 			$datasources = get_post_meta( $page->ID, 'data_sources_group', true );
 
-			foreach( $datasources as $key => &$datasource ) {
+			foreach ( $datasources as $key => &$datasource ) {
 				$datasource['icon_url'] = Icons::get_icon_url( $datasource['icon'] );
 				$datasource['external'] = true;
-				$datasource['sort'] = $key;
+				$datasource['sort']     = $key;
 			}
 
 			$data['data']['contents'][] = [
 				'type' => 'DataSources',
 				'data' => [
-					'rows' => $datasources
-				]
+					'rows' => $datasources,
+				],
 			];
 
 			return rest_ensure_response( $data );
 		}
-
 
 		$content_blocks = get_post_meta( $page->ID, 'content_blocks', true );
 		if ( ! empty( $content_blocks ) ) {
