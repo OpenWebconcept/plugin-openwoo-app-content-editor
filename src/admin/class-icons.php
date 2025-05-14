@@ -17,7 +17,7 @@ class Icons {
 	/**
 	 * Get a list of all available OpenGemeenten Icons.
 	 *
-	 * @return array
+	 * @return array<String, String>
 	 */
 	public static function get_icons() {
 		$icons = [];

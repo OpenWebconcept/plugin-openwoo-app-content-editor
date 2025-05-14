@@ -41,14 +41,14 @@ class Cmb2_Tools {
 	 * @return void
 	 */
 	private function __construct() {
-		add_action( 'cmb2_show_on', [ 'OpenWoo_App_Content_Editor\Admin\Cmb2_Tools', 'show_on_slug' ], 10, 2 );
+		add_filter( 'cmb2_show_on', [ 'OpenWoo_App_Content_Editor\Admin\Cmb2_Tools', 'show_on_slug' ], 10, 2 );
 	}
 
 	/**
 	 * Show meta box based on slug.
 	 *
 	 * @param bool  $display Should we display the meta box.
-	 * @param array $meta_box The current meta box.
+	 * @param array<String, array<String, mixed>> $meta_box The current meta box.
 	 *
 	 * @return bool
 	 */
