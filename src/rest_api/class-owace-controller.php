@@ -9,6 +9,8 @@
 
 namespace OpenWoo_App_Content_Editor\Rest_Api;
 
+use OpenWoo_App_Content_Editor\Admin\Icons;
+
 /**
  * The OWACE_Controller class.
  */
@@ -305,6 +307,7 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 			$datasources = get_post_meta( $page->ID, 'data_sources_group', true );
 
 			foreach( $datasources as $key => &$datasource ) {
+				$datasource['icon_url'] = Icons::get_icon_url( $datasource['icon'] );
 				$datasource['external'] = true;
 				$datasource['sort'] = $key;
 			}

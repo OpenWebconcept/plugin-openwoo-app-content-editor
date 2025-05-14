@@ -1,0 +1,927 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xliff version="1.0">
+  <file original="Icons.xlf" source-language="en" datatype="plaintext" target-language="pl">
+    <body>
+      <trans-unit id="Aanmelden">
+        <source>Log in</source>
+        <target state="translated">Zaloguj się</target>
+      </trans-unit>
+      <trans-unit id="Actueel">
+        <source>Current</source>
+        <target state="translated">Aktualne</target>
+      </trans-unit>
+      <trans-unit id="Afval">
+        <source>Waste</source>
+        <target state="translated">Odpady</target>
+      </trans-unit>
+      <trans-unit id="AfvalbakAfvalzak">
+        <source>Waste bin trash bag</source>
+        <target state="translated">Kosz na odpady</target>
+      </trans-unit>
+      <trans-unit id="AfvalbakPMD">
+        <source>Plastic and packaging waste bin</source>
+        <target state="translated">Kosz PMD</target>
+      </trans-unit>
+      <trans-unit id="Afvalcontainer">
+        <source>Waste container</source>
+        <target state="translated">Kontener na odpady</target>
+      </trans-unit>
+      <trans-unit id="AfvalcontainerAfvalzak">
+        <source>Waste container trash bag</source>
+        <target state="translated">Worek na śmieci</target>
+      </trans-unit>
+      <trans-unit id="Afvalcontainerpas">
+        <source>Waste container pass card</source>
+        <target state="translated">Karta do kontenera na odpady</target>
+      </trans-unit>
+      <trans-unit id="AfvalGFT">
+        <source>Organic waste</source>
+        <target state="translated">Odpady biodegradowalne</target>
+      </trans-unit>
+      <trans-unit id="AfvalGlascontainer">
+        <source>Glass container</source>
+        <target state="translated">Kontener na szkło</target>
+      </trans-unit>
+      <trans-unit id="AfvalGroenbak">
+        <source>Green bin</source>
+        <target state="translated">Zielony kosz</target>
+      </trans-unit>
+      <trans-unit id="Afvalkalender">
+        <source>Waste Calendar</source>
+        <target state="translated">Kalendarz odpadów</target>
+      </trans-unit>
+      <trans-unit id="AfvalOphalen">
+        <source>Waste collection</source>
+        <target state="translated">Odbiór odpadów</target>
+      </trans-unit>
+      <trans-unit id="AfvalPMD">
+        <source>Plastic and packaging waste</source>
+        <target state="translated">Odpady PMD</target>
+      </trans-unit>
+      <trans-unit id="AfvalScheiden">
+        <source>Waste separation</source>
+        <target state="translated">Segregacja odpadów</target>
+      </trans-unit>
+      <trans-unit id="Afvalzak">
+        <source>Garbage Bag</source>
+        <target state="translated">Worek na odpady</target>
+      </trans-unit>
+      <trans-unit id="Agenda">
+        <source>Calendar</source>
+        <target state="translated">Kalendarz</target>
+      </trans-unit>
+      <trans-unit id="Airborne">
+        <source>Airborne</source>
+        <target state="translated">Powietrzny</target>
+      </trans-unit>
+      <trans-unit id="Armoede">
+        <source>Poverty</source>
+        <target state="needs-translation">Poverty</target>
+      </trans-unit>
+      <trans-unit id="AsbestVerwijderen">
+        <source>Asbestos Removal</source>
+        <target state="needs-translation">Asbestos Removal</target>
+      </trans-unit>
+      <trans-unit id="Attentie">
+        <source>Attention</source>
+        <target state="translated">Uwaga</target>
+      </trans-unit>
+      <trans-unit id="Auto">
+        <source>Car</source>
+        <target state="translated">Samochód</target>
+      </trans-unit>
+      <trans-unit id="Bedrijventerrein">
+        <source>Business Park</source>
+        <target state="translated">Strefa przemysłowa</target>
+      </trans-unit>
+      <trans-unit id="Begraafplaats">
+        <source>Cemetery</source>
+        <target state="translated">Cmentarz</target>
+      </trans-unit>
+      <trans-unit id="Begroting">
+        <source>Budget</source>
+        <target state="translated">Budżet</target>
+      </trans-unit>
+      <trans-unit id="Belastingen">
+        <source>Taxes</source>
+        <target state="translated">Podatki</target>
+      </trans-unit>
+      <trans-unit id="BetaaldatumsUitkering">
+        <source>Welfare Payment Dates</source>
+        <target state="translated">Daty wypłat świadczeń</target>
+      </trans-unit>
+      <trans-unit id="Bevolking">
+        <source>Population</source>
+        <target state="translated">Populacja</target>
+      </trans-unit>
+      <trans-unit id="Bevrijding">
+        <source>Liberation</source>
+        <target state="translated">Wyzwolenie</target>
+      </trans-unit>
+      <trans-unit id="BezwaarEnBeroep">
+        <source>Objection and Appeal</source>
+        <target state="translated">Zarzuty i odwołania</target>
+      </trans-unit>
+      <trans-unit id="Bijstandsuitkering">
+        <source>Social assistance benefit</source>
+        <target state="translated">Zasiłek socjalny</target>
+      </trans-unit>
+      <trans-unit id="BladerenOpruimen">
+        <source>Leaf collection</source>
+        <target state="translated">Grabienie liści</target>
+      </trans-unit>
+      <trans-unit id="Bomen">
+        <source>Trees</source>
+        <target state="needs-translation">Trees</target>
+      </trans-unit>
+      <trans-unit id="BouwenEnVerbouwen">
+        <source>Construction and renovation</source>
+        <target state="translated">Budowa i remont</target>
+      </trans-unit>
+      <trans-unit id="Bouwprojecten">
+        <source>Construction projects</source>
+        <target state="translated">Projekty budowlane</target>
+      </trans-unit>
+      <trans-unit id="Brandgevaar">
+        <source>Fire hazard</source>
+        <target state="translated">Zagrożenie pożarowe</target>
+      </trans-unit>
+      <trans-unit id="Brief">
+        <source>Letter</source>
+        <target state="translated">List</target>
+      </trans-unit>
+      <trans-unit id="Buitengebied">
+        <source>Rural area</source>
+        <target state="translated">Obszar wiejski</target>
+      </trans-unit>
+      <trans-unit id="Burgemeester">
+        <source>Mayor</source>
+        <target state="translated">Burmistrz</target>
+      </trans-unit>
+      <trans-unit id="Chat">
+        <source>Chat</source>
+        <target state="translated">Czat</target>
+      </trans-unit>
+      <trans-unit id="Computer">
+        <source>Computer</source>
+        <target state="translated">Komputer</target>
+      </trans-unit>
+      <trans-unit id="Computerregeling">
+        <source>Computer scheme</source>
+        <target state="translated">Zasady korzystania z komputera</target>
+      </trans-unit>
+      <trans-unit id="ContactGemeente">
+        <source>Contact municipality</source>
+        <target state="translated">Kontakt z urzędem miasta</target>
+      </trans-unit>
+      <trans-unit id="Cultuur">
+        <source>Culture</source>
+        <target state="needs-translation">Culture</target>
+      </trans-unit>
+      <trans-unit id="Documenten">
+        <source>Documents</source>
+        <target state="translated">Dokumenty</target>
+      </trans-unit>
+      <trans-unit id="Duurzaamheid">
+        <source>Sustainability</source>
+        <target state="translated">Zrównoważony rozwój</target>
+      </trans-unit>
+      <trans-unit id="EconomieWerkInkomen">
+        <source>Economy work income</source>
+        <target state="translated">Gospodarka, praca, dochód</target>
+      </trans-unit>
+      <trans-unit id="Eenzaamheid">
+        <source>Loneliness</source>
+        <target state="translated">Samotność</target>
+      </trans-unit>
+      <trans-unit id="Eikenprocessie">
+        <source>Oak processionary</source>
+        <target state="translated">Procesja dębowa</target>
+      </trans-unit>
+      <trans-unit id="ElektrischLaden">
+        <source>Electric vehicle charging</source>
+        <target state="translated">Ładowanie elektryczne</target>
+      </trans-unit>
+      <trans-unit id="ElektrischRijden">
+        <source>Electric vehicle driving</source>
+        <target state="translated">Jazda elektryczna</target>
+      </trans-unit>
+      <trans-unit id="Energietransitie">
+        <source>Energy transition</source>
+        <target state="translated">Transformacja energetyczna</target>
+      </trans-unit>
+      <trans-unit id="Enquete">
+        <source>Survey</source>
+        <target state="translated">Ankieta</target>
+      </trans-unit>
+      <trans-unit id="Erfgoed">
+        <source>Heritage</source>
+        <target state="needs-translation">Heritage</target>
+      </trans-unit>
+      <trans-unit id="Erfpacht">
+        <source>Ground lease</source>
+        <target state="translated">Dzierżawa wieczysta</target>
+      </trans-unit>
+      <trans-unit id="Evenementen">
+        <source>Events</source>
+        <target state="translated">Wydarzenia</target>
+      </trans-unit>
+      <trans-unit id="F1">
+        <source>Formula One</source>
+        <target state="translated">F1</target>
+      </trans-unit>
+      <trans-unit id="Fiets">
+        <source>Bicycle</source>
+        <target state="translated">Rower</target>
+      </trans-unit>
+      <trans-unit id="Geboorte">
+        <source>Birth</source>
+        <target state="translated">Narodziny</target>
+      </trans-unit>
+      <trans-unit id="Gebruiker">
+        <source>User</source>
+        <target state="translated">Użytkownik</target>
+      </trans-unit>
+      <trans-unit id="GebruikerCentraal">
+        <source>User-centered</source>
+        <target state="translated">Użytkownik centralny</target>
+      </trans-unit>
+      <trans-unit id="GebruikerIngelogd">
+        <source>User logged in</source>
+        <target state="translated">Użytkownik zalogowany</target>
+      </trans-unit>
+      <trans-unit id="Gebruikersvraag">
+        <source>User query</source>
+        <target state="translated">Pytanie użytkownika</target>
+      </trans-unit>
+      <trans-unit id="Gegevenswoordenboek">
+        <source>Data dictionary</source>
+        <target state="translated">Słownik danych</target>
+      </trans-unit>
+      <trans-unit id="Geld">
+        <source>Money</source>
+        <target state="needs-translation">Money</target>
+      </trans-unit>
+      <trans-unit id="Geluid">
+        <source>Sound</source>
+        <target state="translated">Dźwięk</target>
+      </trans-unit>
+      <trans-unit id="Gemeenteraad">
+        <source>City council</source>
+        <target state="translated">Rada miejska</target>
+      </trans-unit>
+      <trans-unit id="Gemeenteraadsvergadering">
+        <source>City council meeting</source>
+        <target state="translated">Posiedzenie rady miejskiej</target>
+      </trans-unit>
+      <trans-unit id="GemivaLocatie">
+        <source>Gemiva location</source>
+        <target state="needs-translation">Gemiva location</target>
+      </trans-unit>
+      <trans-unit id="Gezicht">
+        <source>Face</source>
+        <target state="translated">Twarz</target>
+      </trans-unit>
+      <trans-unit id="Gladheid">
+        <source>Icing</source>
+        <target state="translated">Gołoledź</target>
+      </trans-unit>
+      <trans-unit id="Grafiek">
+        <source>Chart</source>
+        <target state="translated">Wykres</target>
+      </trans-unit>
+      <trans-unit id="Grofvuil">
+        <source>Bulk waste</source>
+        <target state="translated">Śmieci wielkogabarytowe</target>
+      </trans-unit>
+      <trans-unit id="Herdenking">
+        <source>Commemoration</source>
+        <target state="translated">Uroczystość</target>
+      </trans-unit>
+      <trans-unit id="Hond">
+        <source>Dog</source>
+        <target state="needs-translation">Dog</target>
+      </trans-unit>
+      <trans-unit id="Hondenbelasting">
+        <source>Dog tax</source>
+        <target state="translated">Podatek od psów</target>
+      </trans-unit>
+      <trans-unit id="Hoogbouw">
+        <source>High-rise building</source>
+        <target state="translated">Wysokość budynku</target>
+      </trans-unit>
+      <trans-unit id="HoogWater">
+        <source>High water</source>
+        <target state="needs-translation">High water</target>
+      </trans-unit>
+      <trans-unit id="Horeca">
+        <source>Hospitality</source>
+        <target state="translated">Gastronomia</target>
+      </trans-unit>
+      <trans-unit id="Horecavergunningen">
+        <source>Hospitality permits</source>
+        <target state="translated">Zezwolenia dla gastronomii</target>
+      </trans-unit>
+      <trans-unit id="Huis">
+        <source>House</source>
+        <target state="translated">Dom</target>
+      </trans-unit>
+      <trans-unit id="HuiselijkGeweld">
+        <source>Domestic violence</source>
+        <target state="translated">Przemoc domowa</target>
+      </trans-unit>
+      <trans-unit id="HuisEnOmgeving">
+        <source>House and surroundings</source>
+        <target state="translated">Dom i otoczenie</target>
+      </trans-unit>
+      <trans-unit id="HulpHuishouden">
+        <source>Household help</source>
+        <target state="translated">Pomoc domowa</target>
+      </trans-unit>
+      <trans-unit id="HulpmiddelenVinden">
+        <source>Finding aids</source>
+        <target state="translated">Znalezienie środków pomocowych</target>
+      </trans-unit>
+      <trans-unit id="Idkaart">
+        <source>ID card</source>
+        <target state="translated">Dowód osobisty</target>
+      </trans-unit>
+      <trans-unit id="InEnOmUwHuis">
+        <source>In and around your house</source>
+        <target state="translated">W i wokół Twojego domu</target>
+      </trans-unit>
+      <trans-unit id="Informatie">
+        <source>Information</source>
+        <target state="translated">Informacje</target>
+      </trans-unit>
+      <trans-unit id="InformatieEnBetalen">
+        <source>Information and payments</source>
+        <target state="translated">Informacje i płatności</target>
+      </trans-unit>
+      <trans-unit id="Inkomen">
+        <source>Income</source>
+        <target state="translated">Dochód</target>
+      </trans-unit>
+      <trans-unit id="Inloggen">
+        <source>Log in</source>
+        <target state="needs-translation">Log in</target>
+      </trans-unit>
+      <trans-unit id="Inspraak">
+        <source>Participation</source>
+        <target state="translated">Udział</target>
+      </trans-unit>
+      <trans-unit id="Isolatie">
+        <source>Insulation</source>
+        <target state="needs-translation">Insulation</target>
+      </trans-unit>
+      <trans-unit id="Jeugd">
+        <source>Youth</source>
+        <target state="translated">Młodzież</target>
+      </trans-unit>
+      <trans-unit id="Kennis">
+        <source>Knowledge</source>
+        <target state="translated">Wiedza</target>
+      </trans-unit>
+      <trans-unit id="Kerstbomen">
+        <source>Christmas Trees</source>
+        <target state="translated">Choinki</target>
+      </trans-unit>
+      <trans-unit id="KindEnFamilie">
+        <source>Child and Family</source>
+        <target state="translated">Dziecko i rodzina</target>
+      </trans-unit>
+      <trans-unit id="Klacht">
+        <source>Complaint</source>
+        <target state="translated">Skarga</target>
+      </trans-unit>
+      <trans-unit id="Koningsdag">
+        <source>King's Day</source>
+        <target state="translated">Dzień Króla</target>
+      </trans-unit>
+      <trans-unit id="KopenEnHuren">
+        <source>Buying and Renting</source>
+        <target state="needs-translation">Buying and Renting</target>
+      </trans-unit>
+      <trans-unit id="KopenEnVerkopen">
+        <source>Buying and Selling</source>
+        <target state="translated">Kupno i sprzedaż</target>
+      </trans-unit>
+      <trans-unit id="LaadStation">
+        <source>Charging Station</source>
+        <target state="translated">Stacja ładowania</target>
+      </trans-unit>
+      <trans-unit id="Leerlingenvervoer">
+        <source>Pupil Transport</source>
+        <target state="translated">Transport uczniowski</target>
+      </trans-unit>
+      <trans-unit id="LetOp">
+        <source>Attention</source>
+        <target state="translated">Uwaga</target>
+      </trans-unit>
+      <trans-unit id="Liefdadigheid">
+        <source>Charity</source>
+        <target state="translated">Dobroczynność</target>
+      </trans-unit>
+      <trans-unit id="Locatie">
+        <source>Location</source>
+        <target state="translated">Lokalizacja</target>
+      </trans-unit>
+      <trans-unit id="Manege">
+        <source>Horse Riding School</source>
+        <target state="translated">Stajnia</target>
+      </trans-unit>
+      <trans-unit id="Marktgelden">
+        <source>Market Fees</source>
+        <target state="translated">Opłaty targowe</target>
+      </trans-unit>
+      <trans-unit id="Meeuwenoverlast">
+        <source>Seagull nuisance</source>
+        <target state="translated">Problem z mewami</target>
+      </trans-unit>
+      <trans-unit id="Melding">
+        <source>Report</source>
+        <target state="translated">Zgłoszenie</target>
+      </trans-unit>
+      <trans-unit id="MeldingOmgevallenBoom">
+        <source>Report fallen tree</source>
+        <target state="translated">Zgłoszenie przewróconego drzewa</target>
+      </trans-unit>
+      <trans-unit id="MeldingOpenbareRuimte">
+        <source>Public space report</source>
+        <target state="translated">Zgłoszenie w przestrzeni publicznej</target>
+      </trans-unit>
+      <trans-unit id="MeldingStraatverlichting">
+        <source>Street lighting report</source>
+        <target state="translated">Zgłoszenie oświetlenia ulicznego</target>
+      </trans-unit>
+      <trans-unit id="Milieuzone">
+        <source>Low emission zone</source>
+        <target state="translated">Strefa ekologiczna</target>
+      </trans-unit>
+      <trans-unit id="Mobiliteit">
+        <source>Mobility</source>
+        <target state="translated">Mobilność</target>
+      </trans-unit>
+      <trans-unit id="MonitorAgrofood">
+        <source>Agriculture food monitor</source>
+        <target state="translated">Monitorowanie sektora rolno-spożywczego</target>
+      </trans-unit>
+      <trans-unit id="MonitorDuurzaamheid">
+        <source>Sustainability monitor</source>
+        <target state="translated">Monitor zrównoważonego rozwoju</target>
+      </trans-unit>
+      <trans-unit id="MonitorSociaal">
+        <source>Social monitor</source>
+        <target state="translated">Monitor społeczny</target>
+      </trans-unit>
+      <trans-unit id="MonitorVirus">
+        <source>Virus monitor</source>
+        <target state="translated">Monitor wirusów</target>
+      </trans-unit>
+      <trans-unit id="MonitorWoningmarkt">
+        <source>Housing market monitor</source>
+        <target state="translated">Monitor rynku nieruchomości</target>
+      </trans-unit>
+      <trans-unit id="Monument">
+        <source>Monument</source>
+        <target state="needs-translation">Monument</target>
+      </trans-unit>
+      <trans-unit id="MonumentWoning">
+        <source>Monument housing</source>
+        <target state="needs-translation">Monument housing</target>
+      </trans-unit>
+      <trans-unit id="Museum">
+        <source>Museum</source>
+        <target state="needs-translation">Museum</target>
+      </trans-unit>
+      <trans-unit id="NatuurLandschap">
+        <source>Nature landscape</source>
+        <target state="translated">Natura i krajobraz</target>
+      </trans-unit>
+      <trans-unit id="Nieuwsbrief">
+        <source>Newsletter</source>
+        <target state="translated">Biuletyn</target>
+      </trans-unit>
+      <trans-unit id="Omgeving">
+        <source>Environment</source>
+        <target state="translated">Środowisko</target>
+      </trans-unit>
+      <trans-unit id="Omgevingsvergunning">
+        <source>Environmental permit</source>
+        <target state="translated">Pozwolenie środowiskowe</target>
+      </trans-unit>
+      <trans-unit id="Omgevingsvisie">
+        <source>Environmental vision</source>
+        <target state="translated">Koncepcja środowiskowa</target>
+      </trans-unit>
+      <trans-unit id="OmgevingsvisieDocument">
+        <source>Environmental vision document</source>
+        <target state="translated">Dokument koncepcji środowiskowej</target>
+      </trans-unit>
+      <trans-unit id="Onderhoud">
+        <source>Maintenance</source>
+        <target state="translated">Konserwacja</target>
+      </trans-unit>
+      <trans-unit id="Ondernemen">
+        <source>Entrepreneurship</source>
+        <target state="translated">Przedsiębiorczość</target>
+      </trans-unit>
+      <trans-unit id="Onderscheidingen">
+        <source>Awards</source>
+        <target state="translated">Nagrody</target>
+      </trans-unit>
+      <trans-unit id="Onderwijs">
+        <source>Education</source>
+        <target state="translated">Edukacja</target>
+      </trans-unit>
+      <trans-unit id="OnderwijsBasis">
+        <source>Primary Education</source>
+        <target state="needs-translation">Primary Education</target>
+      </trans-unit>
+      <trans-unit id="OnderwijsHoger">
+        <source>Higher Education</source>
+        <target state="needs-translation">Higher Education</target>
+      </trans-unit>
+      <trans-unit id="OnderwijsVoortgezet">
+        <source>Secondary Education</source>
+        <target state="needs-translation">Secondary Education</target>
+      </trans-unit>
+      <trans-unit id="OntheffingMilieuzone">
+        <source>Exemption from low emission zone</source>
+        <target state="translated">Zwolnienie z ekostrefy</target>
+      </trans-unit>
+      <trans-unit id="Openingstijden">
+        <source>Opening hours</source>
+        <target state="translated">Godziny otwarcia</target>
+      </trans-unit>
+      <trans-unit id="OpeningstijdenWinkels">
+        <source>Shop opening hours</source>
+        <target state="translated">Godziny otwarcia sklepów</target>
+      </trans-unit>
+      <trans-unit id="OverDeGemeente">
+        <source>About the municipality</source>
+        <target state="translated">O gminie</target>
+      </trans-unit>
+      <trans-unit id="OverDeStad">
+        <source>About the city</source>
+        <target state="translated">O mieście</target>
+      </trans-unit>
+      <trans-unit id="Overlijden">
+        <source>Death</source>
+        <target state="translated">Zgon</target>
+      </trans-unit>
+      <trans-unit id="Parkeerkosten">
+        <source>Parking fees</source>
+        <target state="translated">Opłaty parkingowe</target>
+      </trans-unit>
+      <trans-unit id="Parkeerplattegrond">
+        <source>Parking map</source>
+        <target state="translated">Mapa parkingów</target>
+      </trans-unit>
+      <trans-unit id="Parkeervergunning">
+        <source>Parking permit</source>
+        <target state="translated">Pozwolenie parkingowe</target>
+      </trans-unit>
+      <trans-unit id="ParkeervoorzieningGehandicapten">
+        <source>Parking for disabled</source>
+        <target state="translated">Miejsce parkingowe dla osób niepełnosprawnych</target>
+      </trans-unit>
+      <trans-unit id="Parkeren">
+        <source>Parking</source>
+        <target state="needs-translation">Parking</target>
+      </trans-unit>
+      <trans-unit id="ParkerenBedrijven">
+        <source>Company parking</source>
+        <target state="translated">Parking firmowy</target>
+      </trans-unit>
+      <trans-unit id="Participatie">
+        <source>Participation</source>
+        <target state="needs-translation">Participation</target>
+      </trans-unit>
+      <trans-unit id="ParticipatieCampagne">
+        <source>Participation campaign</source>
+        <target state="translated">Kampania partycypacji</target>
+      </trans-unit>
+      <trans-unit id="ParticipatieChecklist">
+        <source>Participation checklist</source>
+        <target state="translated">Lista kontrolna partycypacji</target>
+      </trans-unit>
+      <trans-unit id="ParticipatieLike">
+        <source>Participation like</source>
+        <target state="translated">Lubię partycypację</target>
+      </trans-unit>
+      <trans-unit id="ParticipatiePitch">
+        <source>Participation pitch</source>
+        <target state="translated">Prezentacja partycypacyjna</target>
+      </trans-unit>
+      <trans-unit id="ParticipatiePlan">
+        <source>Participation plan</source>
+        <target state="translated">Plan partycypacji</target>
+      </trans-unit>
+      <trans-unit id="ParticipatieUitvoering">
+        <source>Implementation Participation</source>
+        <target state="translated">Wykonanie udziału</target>
+      </trans-unit>
+      <trans-unit id="Paspoort">
+        <source>Passport</source>
+        <target state="translated">Paszport</target>
+      </trans-unit>
+      <trans-unit id="PaspoortIdkaartGecombineerd">
+        <source>Passport and ID card combined</source>
+        <target state="translated">Paszport i dowód osobisty połączone</target>
+      </trans-unit>
+      <trans-unit id="PaspoortIdkaartGecombineerdInternationaal">
+        <source>Passport and ID card combined international</source>
+        <target state="translated">Paszport i dowód osobisty połączone międzynarodowe</target>
+      </trans-unit>
+      <trans-unit id="PaspoortInternationaal">
+        <source>International passport</source>
+        <target state="translated">Paszport międzynarodowy</target>
+      </trans-unit>
+      <trans-unit id="Politiek">
+        <source>Politics</source>
+        <target state="translated">Polityka</target>
+      </trans-unit>
+      <trans-unit id="Presentatie">
+        <source>Presentation</source>
+        <target state="translated">Prezentacja</target>
+      </trans-unit>
+      <trans-unit id="Prijskaartje">
+        <source>Price Tag</source>
+        <target state="translated">Etykieta cenowa</target>
+      </trans-unit>
+      <trans-unit id="RaadEnCollege">
+        <source>Council and board</source>
+        <target state="translated">Rada i zarząd</target>
+      </trans-unit>
+      <trans-unit id="Reclame">
+        <source>Advertisement</source>
+        <target state="translated">Reklama</target>
+      </trans-unit>
+      <trans-unit id="Reclamebelasting">
+        <source>Advertising Tax</source>
+        <target state="translated">Podatek od reklam</target>
+      </trans-unit>
+      <trans-unit id="Recreatie">
+        <source>Recreation</source>
+        <target state="translated">Rekreacja</target>
+      </trans-unit>
+      <trans-unit id="RegelingLaagInkomen">
+        <source>Low Income Scheme</source>
+        <target state="translated">Uregulowania dla osób o niskich dochodach</target>
+      </trans-unit>
+      <trans-unit id="Rijbewijs">
+        <source>Driver's License</source>
+        <target state="translated">Prawo jazdy</target>
+      </trans-unit>
+      <trans-unit id="Riool">
+        <source>Sewer</source>
+        <target state="needs-translation">Sewer</target>
+      </trans-unit>
+      <trans-unit id="Rioolheffing">
+        <source>Sewerage Levy</source>
+        <target state="translated">Opłata kanalizacyjna</target>
+      </trans-unit>
+      <trans-unit id="Rioolwerkzaamheden">
+        <source>Sewerage Works</source>
+        <target state="translated">Prace kanalizacyjne</target>
+      </trans-unit>
+      <trans-unit id="RoerendeZaakbelasting">
+        <source>Movable Property Tax</source>
+        <target state="translated">Podatek od rzeczy ruchomych</target>
+      </trans-unit>
+      <trans-unit id="Rolstoel">
+        <source>Wheelchair</source>
+        <target state="translated">Wózek inwalidzki</target>
+      </trans-unit>
+      <trans-unit id="Schoolkostenregeling">
+        <source>School Fees Scheme</source>
+        <target state="translated">Zasady dotyczące kosztów szkolnych</target>
+      </trans-unit>
+      <trans-unit id="Sinterklaas">
+        <source>Saint Nicholas</source>
+        <target state="translated">Święty Mikołaj</target>
+      </trans-unit>
+      <trans-unit id="SociaalZorgWelzijn">
+        <source>Social Care and Welfare</source>
+        <target state="translated">Opieka społeczna i dobrostan</target>
+      </trans-unit>
+      <trans-unit id="Speeltuin">
+        <source>Playground</source>
+        <target state="translated">Plac zabaw</target>
+      </trans-unit>
+      <trans-unit id="Sport">
+        <source>Sports</source>
+        <target state="translated">Sport</target>
+      </trans-unit>
+      <trans-unit id="SportCultureleActiviteit">
+        <source>Sports cultural activity</source>
+        <target state="translated">Sportowa aktywność kulturalna</target>
+      </trans-unit>
+      <trans-unit id="SportkledingMuziekinstrumenten">
+        <source>Sportswear musical instruments</source>
+        <target state="translated">Odzież sportowa, instrumenty muzyczne</target>
+      </trans-unit>
+      <trans-unit id="StationSneltrein">
+        <source>Station express train</source>
+        <target state="translated">Stacja pociągów pośpiesznych</target>
+      </trans-unit>
+      <trans-unit id="StationStoptrein">
+        <source>Station local train</source>
+        <target state="translated">Stacja pociągów osobowych</target>
+      </trans-unit>
+      <trans-unit id="Stookverbod">
+        <source>Burning prohibition</source>
+        <target state="translated">Zakaz palenia</target>
+      </trans-unit>
+      <trans-unit id="Strand">
+        <source>Beach</source>
+        <target state="translated">Plaża</target>
+      </trans-unit>
+      <trans-unit id="Subsidie">
+        <source>Subsidy</source>
+        <target state="translated">Dotacja</target>
+      </trans-unit>
+      <trans-unit id="TemperatuurMelding">
+        <source>Temperature alert</source>
+        <target state="translated">Ostrzeżenie temperaturowe</target>
+      </trans-unit>
+      <trans-unit id="Thuiswerken">
+        <source>Remote work</source>
+        <target state="translated">Praca zdalna</target>
+      </trans-unit>
+      <trans-unit id="Toegankelijkheid">
+        <source>Accessibility</source>
+        <target state="translated">Dostępność</target>
+      </trans-unit>
+      <trans-unit id="Toeslag">
+        <source>Surcharge</source>
+        <target state="translated">Dodatki</target>
+      </trans-unit>
+      <trans-unit id="TrouwenEnGeregistreerdPartnerschap">
+        <source>Marriage and registered partnership</source>
+        <target state="translated">Małżeństwo i związki partnerskie</target>
+      </trans-unit>
+      <trans-unit id="Tuinbouw">
+        <source>Horticulture</source>
+        <target state="translated">Ogrodnictwo</target>
+      </trans-unit>
+      <trans-unit id="Uittreksel">
+        <source>Extract</source>
+        <target state="translated">Wyciąg</target>
+      </trans-unit>
+      <trans-unit id="UwGemeente">
+        <source>Your municipality</source>
+        <target state="translated">Twoja gmina</target>
+      </trans-unit>
+      <trans-unit id="UwWijk">
+        <source>Your district</source>
+        <target state="translated">Twoja dzielnica</target>
+      </trans-unit>
+      <trans-unit id="Vacatures">
+        <source>Vacancies</source>
+        <target state="translated">Oferty pracy</target>
+      </trans-unit>
+      <trans-unit id="Vaccinatie">
+        <source>Vaccination</source>
+        <target state="translated">Szczepienie</target>
+      </trans-unit>
+      <trans-unit id="Veerboot">
+        <source>Ferry</source>
+        <target state="translated">Prom</target>
+      </trans-unit>
+      <trans-unit id="VeiligeWijk">
+        <source>Safe district</source>
+        <target state="translated">Bezpieczna dzielnica</target>
+      </trans-unit>
+      <trans-unit id="Vergaderen">
+        <source>Meetings</source>
+        <target state="translated">Zebranie</target>
+      </trans-unit>
+      <trans-unit id="VergaderenDigitaal">
+        <source>Digital meetings</source>
+        <target state="translated">Zebranie cyfrowe</target>
+      </trans-unit>
+      <trans-unit id="VergoedingEnergiekosten">
+        <source>Energy cost compensation</source>
+        <target state="translated">Dofinansowanie kosztów energii</target>
+      </trans-unit>
+      <trans-unit id="VergunningAlgemeen">
+        <source>General permit</source>
+        <target state="translated">Pozwolenie ogólne</target>
+      </trans-unit>
+      <trans-unit id="Verhuizen">
+        <source>Moving</source>
+        <target state="translated">Przeprowadzka</target>
+      </trans-unit>
+      <trans-unit id="Verkeerslicht">
+        <source>Traffic light</source>
+        <target state="translated">Sygnalizacja świetlna</target>
+      </trans-unit>
+      <trans-unit id="Verkiezingen">
+        <source>Elections</source>
+        <target state="translated">Wybory</target>
+      </trans-unit>
+      <trans-unit id="Verslaving">
+        <source>Addiction</source>
+        <target state="translated">Uzależnienie</target>
+      </trans-unit>
+      <trans-unit id="Vervoersvoorziening">
+        <source>Transport facility</source>
+        <target state="translated">Transport</target>
+      </trans-unit>
+      <trans-unit id="Virus">
+        <source>Virus</source>
+        <target state="translated">Wirus</target>
+      </trans-unit>
+      <trans-unit id="Vlag">
+        <source>Flag</source>
+        <target state="translated">Flaga</target>
+      </trans-unit>
+      <trans-unit id="VluchtelingenOpvang">
+        <source>Refugee shelter</source>
+        <target state="translated">Ośrodek dla uchodźców</target>
+      </trans-unit>
+      <trans-unit id="Voeding">
+        <source>Nutrition</source>
+        <target state="translated">Żywność</target>
+      </trans-unit>
+      <trans-unit id="Vrijwilligerswerk">
+        <source>Volunteering</source>
+        <target state="translated">Wolontariat</target>
+      </trans-unit>
+      <trans-unit id="Vuurwerk">
+        <source>Fireworks</source>
+        <target state="translated">Fajerwerki</target>
+      </trans-unit>
+      <trans-unit id="Wandelen">
+        <source>Walking</source>
+        <target state="translated">Spacerowanie</target>
+      </trans-unit>
+      <trans-unit id="Welzijnswerk">
+        <source>Welfare work</source>
+        <target state="needs-translation">Welfare work</target>
+      </trans-unit>
+      <trans-unit id="Werkzaamheden">
+        <source>Work activities</source>
+        <target state="translated">Prace</target>
+      </trans-unit>
+      <trans-unit id="Wijkteam">
+        <source>Neighborhood team</source>
+        <target state="translated">Zespół ds. dzielnic</target>
+      </trans-unit>
+      <trans-unit id="Windenergie">
+        <source>Wind energy</source>
+        <target state="needs-translation">Wind energy</target>
+      </trans-unit>
+      <trans-unit id="Winkelen">
+        <source>Shopping</source>
+        <target state="translated">Zakupy</target>
+      </trans-unit>
+      <trans-unit id="Winkelwagen">
+        <source>Shopping cart</source>
+        <target state="translated">Wózek sklepowy</target>
+      </trans-unit>
+      <trans-unit id="Wmo">
+        <source>Social Support Act</source>
+        <target state="needs-translation">Social Support Act</target>
+      </trans-unit>
+      <trans-unit id="Wolf">
+        <source>Wolf</source>
+        <target state="translated">Wilk</target>
+      </trans-unit>
+      <trans-unit id="WoningZoeken">
+        <source>Searching for housing</source>
+        <target state="translated">Szukanie mieszkania</target>
+      </trans-unit>
+      <trans-unit id="WozWaarde">
+        <source>WOZ value</source>
+        <target state="translated">Wartość WOZ</target>
+      </trans-unit>
+      <trans-unit id="ZelfbeheerTegel">
+        <source>Self-management tile</source>
+        <target state="translated">Zarządzanie własne płytki</target>
+      </trans-unit>
+      <trans-unit id="ZelfstandigWonen">
+        <source>Living independently</source>
+        <target state="translated">Samodzielne mieszkanie</target>
+      </trans-unit>
+      <trans-unit id="Zoeken">
+        <source>Search</source>
+        <target state="translated">Szukaj</target>
+      </trans-unit>
+      <trans-unit id="Zwemabonnement">
+        <source>Swimming subscription</source>
+        <target state="translated">Abonament na pływanie</target>
+      </trans-unit>
+      <trans-unit id="Zwemmen">
+        <source>Swimming</source>
+        <target state="translated">Pływanie</target>
+      </trans-unit>
+      <trans-unit id="identifier">
+        <source>source</source>
+        <target state="translated">źródło</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

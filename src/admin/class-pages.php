@@ -267,7 +267,9 @@ class Pages {
 			[
 				'name' => __( 'Icon', 'openwoo-app-content-editor' ),
 				'id'   => 'icon',
-				'type' => 'text',
+				'type' => 'select',
+				'options_cb' => [ 'OpenWoo_App_Content_Editor\Admin\Icons', 'get_icons' ],
+				'show_option_none' => true,
 			]
 		);
 
