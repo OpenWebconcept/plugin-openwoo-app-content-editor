@@ -9,6 +9,8 @@
 
 namespace OpenWoo_App_Content_Editor\Rest_Api;
 
+use OpenWoo_App_Content_Editor\Admin\Icons;
+
 /**
  * The OWACE_Controller class.
  */
@@ -285,6 +287,52 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 				'updated_at' => $page->post_modified,
 			],
 		];
+
+		if ( 'home' === $page->post_name ) {
+			$data['data']['contents'][] = [
+				'type' => 'RichText',
+				'data' => [
+					'content' => wpautop( get_post_meta( $page->ID, 'about_title', true ) ),
+				],
+			];
+			$data['data']['contents'][] = [
+				'type' => 'RichText',
+				'data' => [
+					'content' => wpautop( get_post_meta( $page->ID, 'about_description', true ) ),
+				],
+			];
+			$id = get_post_meta( $page->ID, 'about_image_id', true );
+
+			$data['data']['contents'][] = [
+				'type' => 'Image',
+				'data' => [
+					'id'        => $id,
+					'name'      => get_the_title( $id ),
+					'file_name' => basename( get_attached_file( $id ) ),
+					'mime_type' => get_post_mime_type( $id ),
+					'url'       => wp_get_attachment_url( $id ),
+					'srcset'    => wp_get_attachment_image_srcset( $id ),
+				],
+			];
+
+			$datasources = get_post_meta( $page->ID, 'data_sources_group', true );
+
+			foreach( $datasources as $key => &$datasource ) {
+				$datasource['icon_url'] = Icons::get_icon_url( $datasource['icon'] );
+				$datasource['external'] = true;
+				$datasource['sort'] = $key;
+			}
+
+			$data['data']['contents'][] = [
+				'type' => 'DataSources',
+				'data' => [
+					'rows' => $datasources
+				]
+			];
+
+			return rest_ensure_response( $data );
+		}
+
 
 		$content_blocks = get_post_meta( $page->ID, 'content_blocks', true );
 		if ( ! empty( $content_blocks ) ) {
