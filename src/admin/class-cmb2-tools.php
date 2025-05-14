@@ -41,14 +41,14 @@ class Cmb2_Tools {
 	 * @return void
 	 */
 	private function __construct() {
-		add_action( 'cmb2_show_on', [ 'OpenWoo_App_Content_Editor\Admin\Cmb2_Tools', 'show_on_slug' ], 10, 2 );
+		add_filter( 'cmb2_show_on', [ 'OpenWoo_App_Content_Editor\Admin\Cmb2_Tools', 'show_on_slug' ], 10, 2 );
 	}
 
 	/**
 	 * Show meta box based on slug.
 	 *
-	 * @param bool $display Should we display the meta box?
-	 * @param array $meta_box The current meta box.
+	 * @param bool  $display Should we display the meta box.
+	 * @param array<String, array<String, mixed>> $meta_box The current meta box.
 	 *
 	 * @return bool
 	 */
@@ -63,11 +63,15 @@ class Cmb2_Tools {
 
 		$post_id = 0;
 
-		// Get the current ID
+		// Get the current ID.
+		// phpcs:ignore WordPress.Security.NonceVerification.Recommended
 		if ( isset( $_GET['post'] ) ) {
-			$post_id = $_GET['post'];
+			// phpcs:ignore WordPress.Security.NonceVerification.Recommended
+			$post_id = absint( wp_unslash( $_GET['post'] ) );
+			// phpcs:ignore WordPress.Security.NonceVerification.Missing
 		} elseif ( isset( $_POST['post_ID'] ) ) {
-			$post_id = $_POST['post_ID'];
+			// phpcs:ignore WordPress.Security.NonceVerification.Missing
+			$post_id = absint( wp_unslash( $_POST['post_ID'] ) );
 		}
 
 		if ( ! $post_id ) {
@@ -80,10 +84,10 @@ class Cmb2_Tools {
 			$meta_box['show_on']['value'] = [ $meta_box['show_on']['value'] ];
 		}
 
-		// See if there's a match
+		// See if there's a match.
 		if ( isset( $meta_box['show_on']['compare'] ) && '!=' === $meta_box['show_on']['compare'] ) {
-			return ! in_array( $slug, $meta_box['show_on']['value']);
+			return ! in_array( $slug, $meta_box['show_on']['value'], true );
 		}
-		return in_array( $slug, $meta_box['show_on']['value']);
+		return in_array( $slug, $meta_box['show_on']['value'], true );
 	}
 }

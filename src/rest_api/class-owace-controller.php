@@ -152,6 +152,17 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 				'args'                => [],
 			]
 		);
+
+		register_rest_route(
+			$this->namespace,
+			'/api/public/categories',
+			[
+				'methods'             => \WP_REST_Server::READABLE,
+				'callback'            => [ $this, 'get_categories' ],
+				'permission_callback' => '__return_true',
+				'args'                => [],
+			]
+		);
 	}
 
 	/**
@@ -290,7 +301,7 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 					'content' => wpautop( get_post_meta( $page->ID, 'about_description', true ) ),
 				],
 			];
-			$id = get_post_meta( $page->ID, 'about_image_id', true );
+			$id                         = get_post_meta( $page->ID, 'about_image_id', true );
 
 			$data['data']['contents'][] = [
 				'type' => 'Image',
@@ -306,27 +317,32 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 
 			$datasources = get_post_meta( $page->ID, 'data_sources_group', true );
 
-			foreach( $datasources as $key => &$datasource ) {
+			foreach ( $datasources as $key => &$datasource ) {
 				$datasource['icon_url'] = Icons::get_icon_url( $datasource['icon'] );
 				$datasource['external'] = true;
-				$datasource['sort'] = $key;
+				$datasource['sort']     = $key;
 			}
 
 			$data['data']['contents'][] = [
 				'type' => 'DataSources',
 				'data' => [
-					'rows' => $datasources
-				]
+					'rows' => $datasources,
+				],
 			];
 
 			return rest_ensure_response( $data );
 		}
 
-
 		$content_blocks = get_post_meta( $page->ID, 'content_blocks', true );
 		if ( ! empty( $content_blocks ) ) {
 			foreach ( $content_blocks as $content_block ) {
 				switch ( $content_block['layout'] ) {
+					case 'category':
+						$data['data']['contents'][] = [
+							'type' => 'Category',
+							'data' => [],
+						];
+						break;
 					case 'text':
 						$data['data']['contents'][] = [
 							'type' => 'RichText',
@@ -473,5 +489,36 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 		}
 
 		return $menu;
+	}
+
+	/**
+	 * Get the categories.
+	 *
+	 * @return \WP_Error|\WP_HTTP_Response|\WP_REST_Response|mixed
+	 */
+	public function get_categories() {
+		$categories = get_posts(
+			[
+				'post_type'      => 'owace_category',
+				'posts_per_page' => - 1,
+			]
+		);
+
+		$response = [];
+		foreach ( $categories as $category ) {
+			$response[] = [
+				'id'          => $category->ID,
+				'title'       => $category->post_title,
+				'content'     => wpautop( get_post_meta( $category->ID, 'content', true ) ),
+				'link'        => get_post_meta( $category->ID, 'link', true ),
+				'url'         => get_post_meta( $category->ID, 'url', true ),
+				'icon'        => get_post_meta( $category->ID, 'icon', true ),
+				'icon_url'    => Icons::get_icon_url( get_post_meta( $category->ID, 'icon', true ) ),
+				'is_external' => 'on' === get_post_meta( $category->ID, 'is_external', true ),
+				'sort'        => get_post_meta( $category->ID, 'sort', true ),
+			];
+		}
+
+		return rest_ensure_response( [ 'data' => $response ] );
 	}
 }

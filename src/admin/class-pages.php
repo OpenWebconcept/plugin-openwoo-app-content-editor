@@ -108,7 +108,11 @@ class Pages {
 				'id'           => 'content_blocks_metabox',
 				'title'        => __( 'Content Blocks', 'openwoo-app-content-editor' ),
 				'object_types' => [ 'owace_page' ],
-				'show_on'      => [ 'key' => 'slug', 'value' => 'home', 'compare' => '!=' ],
+				'show_on'      => [
+					'key'     => 'slug',
+					'value'   => 'home',
+					'compare' => '!=',
+				],
 			]
 		);
 
@@ -131,11 +135,11 @@ class Pages {
 					'sortable' => true,
 				],
 				'layouts' => [
-					'faq'   => [
+					'faq'      => [
 						'title'  => __( 'FAQ', 'openwoo-app-content-editor' ),
 						'fields' => [],
 					],
-					'text'  => [
+					'text'     => [
 						'title'  => __( 'Text', 'openwoo-app-content-editor' ),
 						'fields' => [
 							[
@@ -145,7 +149,7 @@ class Pages {
 							],
 						],
 					],
-					'image' => [
+					'image'    => [
 						'title'  => __( 'Image', 'openwoo-app-content-editor' ),
 						'fields' => [
 							[
@@ -161,7 +165,7 @@ class Pages {
 							],
 						],
 					],
-					'list'  => [
+					'list'     => [
 						'title'  => __( 'List', 'openwoo-app-content-editor' ),
 						'fields' => [
 							[
@@ -172,6 +176,10 @@ class Pages {
 								'options' => $list_options,
 							],
 						],
+					],
+					'category' => [
+						'title'  => __( 'Category', 'openwoo-app-content-editor' ),
+						'fields' => [],
 					],
 				],
 			]
@@ -189,7 +197,10 @@ class Pages {
 				'id'           => 'about_metabox',
 				'title'        => __( 'About', 'openwoo-app-content-editor' ),
 				'object_types' => [ 'owace_page' ],
-				'show_on'      => [ 'key' => 'slug', 'value' => 'home' ],
+				'show_on'      => [
+					'key'   => 'slug',
+					'value' => 'home',
+				],
 			]
 		);
 
@@ -235,7 +246,10 @@ class Pages {
 				'id'           => 'data_sources_metabox',
 				'title'        => __( 'Data sources', 'openwoo-app-content-editor' ),
 				'object_types' => [ 'owace_page' ],
-				'show_on'      => [ 'key' => 'slug', 'value' => 'home' ],
+				'show_on'      => [
+					'key'   => 'slug',
+					'value' => 'home',
+				],
 			]
 		);
 

@@ -14,6 +14,11 @@ namespace OpenWoo_App_Content_Editor\Admin;
  */
 class Icons {
 
+	/**
+	 * Get a list of all available OpenGemeenten Icons.
+	 *
+	 * @return array<String, String>
+	 */
 	public static function get_icons() {
 		$icons = [];
 		foreach ( glob( plugin_dir_path( dirname( __DIR__ ) ) . '/opengemeenten-iconenset/Svg/Line/*.svg' ) as $icon ) {
@@ -24,6 +29,13 @@ class Icons {
 		return $icons;
 	}
 
+	/**
+	 * Get the url for a OpenGemeenten Icon.
+	 *
+	 * @param string $icon The icon for which the url is requested.
+	 *
+	 * @return string|null
+	 */
 	public static function get_icon_url( $icon ) {
 		if ( ! $icon || ! file_exists( plugin_dir_path( dirname( __DIR__ ) ) . '/opengemeenten-iconenset/Svg/' . $icon . '.svg' ) ) {
 			return null;
