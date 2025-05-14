@@ -12,6 +12,7 @@
 namespace OpenWoo_App_Content_Editor;
 
 use OpenWoo_App_Content_Editor\Admin\Admin;
+use OpenWoo_App_Content_Editor\Admin\Categories;
 use OpenWoo_App_Content_Editor\Admin\Pages;
 use OpenWoo_App_Content_Editor\Admin\FAQ;
 use OpenWoo_App_Content_Editor\Admin\Lists;
@@ -43,6 +44,7 @@ class Plugin {
 		FAQ::get_instance();
 		Lists::get_instance();
 		Menus::get_instance();
+		Categories::get_instance();
 
 		/**
 		 * Register REST API specific functionality.

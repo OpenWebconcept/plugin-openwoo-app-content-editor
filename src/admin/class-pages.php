@@ -170,6 +170,10 @@ class Pages {
 							],
 						],
 					],
+					'category' => [
+						'title' => __( 'Category', 'openwoo-app-content-editor' ),
+						'fields' => [],
+					],
 				],
 			]
 		);
