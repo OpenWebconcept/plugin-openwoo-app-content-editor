@@ -266,6 +266,7 @@ class Pages {
 			$group_id,
 			[
 				'name' => __( 'Icon', 'openwoo-app-content-editor' ),
+				'desc' => __( 'You can choose any icon from the <a href="https://www.gemeenteniconen.nl/iconen/collection/Line?cHash=8c437a058227a7bf29fe41b65523f5c9#c1014">OpenGemeenten Iconenset</a>, the Line variant.', 'openwoo-app-content-editor' ),
 				'id'   => 'icon',
 				'type' => 'select',
 				'options_cb' => [ 'OpenWoo_App_Content_Editor\Admin\Icons', 'get_icons' ],

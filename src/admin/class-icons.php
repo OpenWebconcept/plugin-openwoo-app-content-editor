@@ -25,7 +25,7 @@ class Icons {
 	}
 
 	public static function get_icon_url( $icon ) {
-		if ( ! $icon ) {
+		if ( ! $icon || ! file_exists( plugin_dir_path( dirname( __DIR__ ) ) . '/opengemeenten-iconenset/Svg/' . $icon . '.svg' ) ) {
 			return null;
 		}
 
