@@ -348,7 +348,7 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 						$data['data']['contents'][] = [
 							'type' => 'RichText',
 							'data' => [
-								'content' => wpautop($content_block['text']),
+								'content' => wpautop( $content_block['text'] ),
 							],
 						];
 						break;
