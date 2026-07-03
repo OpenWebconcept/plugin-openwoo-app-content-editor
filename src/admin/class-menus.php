@@ -54,6 +54,8 @@ class Menus {
 			[
 				'owace-this-website-menu' => esc_html__( 'OpenWoo - This website', 'openwoo-app-content-editor' ),
 				'owace-quick-links-menu'  => esc_html__( 'OpenWoo - Quick links', 'openwoo-app-content-editor' ),
+				'owace-footer-menu'       => esc_html__( 'OpenWoo - Footer', 'openwoo-app-content-editor' ),
+				'owace-main-menu'         => esc_html__( 'OpenWoo - Main', 'openwoo-app-content-editor' ),
 			]
 		);
 	}

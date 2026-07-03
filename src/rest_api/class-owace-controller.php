@@ -433,7 +433,7 @@ class OWACE_Controller extends \WP_REST_Posts_Controller {
 	 */
 	public function get_menus() {
 		$data['data'] = [];
-		foreach ( [ 'owace-this-website-menu', 'owace-quick-links-menu' ] as $location_slug ) {
+		foreach ( [ 'owace-this-website-menu', 'owace-quick-links-menu', 'owace-footer-menu', 'owace-main-menu' ] as $location_slug ) {
 			$data['data'][ $location_slug ] = $this->get_menu_item_by_slug( $location_slug );
 		}
 
