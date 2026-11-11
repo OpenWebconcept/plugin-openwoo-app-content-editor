@@ -18,19 +18,11 @@
         {
             "type": "git",
             "url": "git@github.com:acato-plugins/cmb2-flexible-content.git"
-        },
-        {
-            "type": "composer",
-            "url": "https://wpackagist.org",
-            "only": [
-                "wpackagist-plugin/*",
-                "wpackagist-theme/*"
-            ]
         }
     ],
     "require" : {
         "composer/installers" : "~1.0",
-        "wpackagist-plugin/cmb2": "*",
+        "cmb2/cmb2": "*",
         "acato-plugins/cmb2-flexible-content": "dev-master"
     },
     "require-dev" : {

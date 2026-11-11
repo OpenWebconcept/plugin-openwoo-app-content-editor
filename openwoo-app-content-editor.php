@@ -13,7 +13,7 @@
  * Plugin Name:       OpenWoo.App Content Editor
  * Plugin URI:        https://www.openwebconcept.nl
  * Description:       A content editor in WordPress for the OpenWoo.App.
- * Version:           0.0.3
+ * Version:           0.0.4
  * Author:            Acato
  * Author URI:        https://www.acato.nl
  * License:           EUPL-1.2
@@ -27,7 +27,7 @@ if ( ! defined( 'WPINC' ) ) {
 	die;
 }
 
-define( 'OWC_OWACE', '0.0.3' );
+define( 'OWC_OWACE', '0.0.4' );
 
 // Load Composer autoloader if available.
 if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
